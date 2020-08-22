@@ -1,0 +1,69 @@
+.cartype{
+    padding: 0 .3rem;
+    box-sizing: border-box;
+    .pos{
+        padding-top: .9rem;
+        margin-top: -0.9rem;
+    }
+    .border-b{
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+    .top-title{
+        width: 100%;
+        padding-top: .8rem;
+        padding-bottom: .5rem;
+        font-size: .4rem;
+        text-align: center;
+        color: rgb(0,0,0);
+        font-weight: bold;
+    }
+    .tag-container{
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+        .tag-row{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .tag{
+                width: 3.35rem;
+                height: .75rem;
+                line-height: .75rem;
+                text-align: center;
+                color: rgb(0,0,0);
+                font-weight: bold;
+                border: 1px solid rgba(0,0,0,.2);
+                font-size: .26rem;
+                border-radius: .375rem;
+                letter-spacing: .05rem;
+                margin-top: .3rem;
+                &.current{
+                    background-color: #d3b078;
+                    border-color: #d3b078;
+                    color: #ffffff;
+                }
+                &:first-child,&:nth-child(2){
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .tag-title{
+        width: 100%;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+        font-size: .4rem;
+        text-align: center;
+        color: rgb(0,0,0);
+        font-weight: bold;
+    }
+    .car-list{
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        >div{
+            margin-top: .75rem;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}
